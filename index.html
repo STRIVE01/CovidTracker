@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <header  class="philStat" id="philStat">
+            <h1>Philippine Covid Statistics</h1>
+            <div class="details">
+                <div>
+                    <h2>Confirmed Cases</h2>
+                    <p>0</p>
+                </div>
+                <div>
+                    <h2>Deaths</h2>
+                    <p>0</p>
+                </div>
+                <div>
+                    <h2>Recovered</h2>
+                    <p>0</p>
+                </div>
+            </div>
+        </header>
+        <header class="worldStat" id="worldStat">
+            <h1>Worldwide Covid Statistics</h1>
+            <div class="details">
+                <div>
+                    <h2>Confirmed Cases</h2>
+                    <p>0</p>
+                </div>
+                <div>
+                    <h2>Deaths</h2>
+                    <p>0</p>
+                </div>
+                <div>
+                    <h2>Recovered</h2>
+                    <p>0</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="wrapper">
+            <section class="search-country">
+                <input class="input" type="text" id="input" placeholder="Search by Country">
+                <button class="btn" id="btn">Search</button>
+            </section>
+
+            <section class="display-country-case" id="display-country-case">
+                <!-- <div class="country-container">    
+                    <h3 class="country-name" id="country-name">Country Name</h3>
+                    <img class="country-flag" src="https://disease.sh/assets/img/flags/ph.png" alt="CountryFlag">
+                </div>   
+                <div class="country-cases">        
+                    <p>
+                        Cases: 4,256,729 | Today: 4,404  <br>
+                        Active: 287,355 | Deaths: 1,529,606 <br>
+                        Recovered: 46,945
+                    </p>
+                </div>   -->
+            </section>    
+       </div>
+    </div>
+
+
+    <script src="/countUp.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
